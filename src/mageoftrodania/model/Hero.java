@@ -14,26 +14,26 @@ import java.util.Scanner;
 public class Hero {
     
     // Generic Information
-    String firstName = "Hero";
-    String lastName = "Hero";
-    String title = "The Recruit";
-    int level = 1;
-    int xp = 0;
+    private String firstName = "Hero";
+    private String lastName = "Hero";
+    private String title = "The Recruit";
+    private int level = 1;
+    private int xp = 0;
     
     // Real Time Resources
-    int health = 25;
-    int mana = 25;
+    private int health = 25;
+    private int mana = 25;
     
     // Resources Stats (increases by 10)
-    int maxHealth = 25;
-    int maxMana = 25;
+    private int maxHealth = 25;
+    private int maxMana = 25;
     // (increases by 2)
-    int healthRecovery = 3;
-    int manaRecovery = 3;
+    private int healthRecovery = 3;
+    private int manaRecovery = 3;
     
     // Combat Stats (increases by 5)
-    int spellPower = 10;
-    int spellWard = 10; 
+    private int spellPower = 10;
+    private int spellWard = 10; 
     
     
     // Bag
